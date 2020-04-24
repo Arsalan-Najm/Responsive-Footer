@@ -1,0 +1,112 @@
+@font-face{
+font-family:crunch;
+src:url("C:/Windows/Fonts/PEANUT CRUNCH DEMO.OTF");
+}
+body{
+margin:0;
+padding:0;
+font-family:tahoma;
+}
+footer{
+background:#031320;
+padding:55px 0;
+}
+.footer-contain{
+max-width:1300px;
+margin:auto;
+padding:0 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap-reverse;
+}
+.logo{
+font-size:32px;
+font-family:crunch;
+color:#fff;
+}
+.social{
+margin:20px 0;
+}
+.social a{
+color:#fff;
+margin-right: 25px;
+font-size:22px;
+text-decoration:none;
+-webkit-transition:0.4s linear;
+}
+.social a:hover{
+color:#fc5c65
+}
+.heading h1{
+font-size:26px;
+color:#fff;
+}
+.border{
+width:100px;
+height:4px;
+background:#fc5c65
+}
+.text-form{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+}
+input[type=email]{
+flex:1;
+padding:18px 40px;
+font-size:16px;
+color:#293043;
+background:#ddd;
+border:none;
+font-weight:700;
+outline:none;
+border-radius:30px;
+min-width:260px;
+}
+input[type=submit]{
+padding:18px 40px;
+font-size:16px;
+background:#fc5c65;
+color:#fff;
+border:none;
+font-weight:700;
+outline:none;
+border-radius:30px;
+margin-left:20px;
+cursor:pointer;
+-webkit-transition:opacity .3s linear;
+}
+.submit:hover{
+opacity:0.8
+}
+p.right,p.email{
+color:#fff;
+}
+.page{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:40px 
+}
+@media screen and (max-width:960px){
+.footer-contain{
+max-width:600px
+}
+.right{
+width:100%;
+margin-bottom:60px
+}
+.left{
+width:100%;
+text-align:center;
+}
+@media screen and (max-width:700px){
+.submit{
+width:100%;
+margin:0;
+margin-top:20px
+}
+}
